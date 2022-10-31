@@ -15,8 +15,8 @@ function AboutMe() {
     loop: 0,
     delaySpeed: 3000
   })
-
-  const curriculum = 'https://docs.google.com/uc?export=download&id=1JFdte6cFH5RE-IreE7f1P60tzprXqEgU'
+  
+  const curriculum = 'https://drive.google.com/u/0/uc?id=1DS-V3v8hRCVEDnuGcLgBsg2XfMJEubir&export=download'
 
   function showNotify(){
     toast.success('Download bem sucedido!')
