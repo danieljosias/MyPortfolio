@@ -36,7 +36,7 @@ export const Container = styled.div`
     }
   }
 
-  @media (max-width: 375px){
+  @media (min-width: 375px){
     max-width: 375px;
   }
 `;

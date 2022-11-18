@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
 
-    @media (max-width: 1364px){
+    @media (min-width: 1364px){
         display: flex;
         justify-content: center;
         margin: 100px;
@@ -138,7 +138,7 @@ export const Container = styled.div`
         }
     }
 
-    @media (max-width: 1024px){
+    @media (min-width: 1024px){
         display: flex;
         justify-content: center;
         align-items: center;
@@ -259,7 +259,7 @@ export const Container = styled.div`
         }
     }
 
-    @media (max-width: 768px){
+    @media (min-width: 768px){
         display: flex;
         justify-content: center;
         align-items: center;
@@ -380,7 +380,7 @@ export const Container = styled.div`
         }
     }
 
-    @media (max-width: 375px){
+    @media (min-width: 375px){
         display: flex;
         justify-content: center;
         margin: 0px;

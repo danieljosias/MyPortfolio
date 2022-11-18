@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-  @media (max-width: 375px) {
+  @media (min-width: 375px) {
     header {
       height: 15vh;
       width: 100%;
@@ -9,7 +9,7 @@ export const Container = styled.div`
     }
   }
 
-  @media (max-width: 425px) {
+  @media (min-width: 425px) {
     header {
       height: 15vh;
       width: 100%;
@@ -18,7 +18,7 @@ export const Container = styled.div`
 
   }
 
-  @media (max-width: 768px) {
+  @media (min-width: 768px) {
     header {
       height: 15vh;
       width: 100%;
@@ -37,7 +37,7 @@ export const Container = styled.div`
     
   }
 
-  @media (max-width: 1024px) {
+  @media (min-width: 1024px) {
     header {
       height: 15vh;
       width: 100%;
@@ -61,11 +61,7 @@ export const Container = styled.div`
     } 
   }
 
-  @media (min-width: 1024px) {
-
-  }
-
-  @media (max-width: 1364px) {
+  @media (min-width: 1364px) {
     header {
       background-color: var(--primary-color);
       display: flex;

@@ -1,8 +1,7 @@
 import styled from "styled-components";
 
-
 export const Container = styled.div`
-  @media (max-width: 1364px) {
+  @media (min-width: 1364px) {
       display: flex;
       align-items: center;
       justify-content: space-around;
@@ -100,7 +99,7 @@ export const Container = styled.div`
     }
   }
 
-  @media (max-width: 1024px) {
+  @media (min-width: 1024px) {
     display: flex;
     justify-content: space-around;
     width: 100vw;
@@ -198,7 +197,7 @@ export const Container = styled.div`
     }
   }
 
-  @media (max-width: 768px) {
+  @media (min-width: 768px) {
     display: flex;
     justify-content: space-around;
     width: 100vw;
@@ -295,7 +294,7 @@ export const Container = styled.div`
     }
   }
 
-  @media (max-width: 500px) {
+  @media (min-width: 500px) {
     display: flex;
     justify-content: center;
     width: 100vw;
@@ -328,7 +327,7 @@ export const Container = styled.div`
     }
   }
 
-  @media (max-width: 425px) {
+  @media (min-width: 425px) {
     width: 100vw;
     height: 70vh;
 
@@ -359,7 +358,7 @@ export const Container = styled.div`
     }
   }
 
-  @media (max-width: 375px) {
+  @media (min-width: 375px) {
     width: 100vw;
     height: 70vh;
 
@@ -368,7 +367,6 @@ export const Container = styled.div`
     }
 
     .right {
-      //estilos do container right
       margin: 0;
       background-color: var(--primary-color);
       display: flex;

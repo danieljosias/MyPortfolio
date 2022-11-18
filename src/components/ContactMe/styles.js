@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-    @media (max-width: 1364px){
+    @media (min-width: 1364px){
       display: flex;
       flex-direction: column;
       justify-content: center;
@@ -82,7 +82,7 @@ export const Container = styled.div`
       }
     }
 
-    @media (max-width: 375px){
+    @media (min-width: 375px){
       display: flex;
       flex-direction: column;
       justify-content: center;
